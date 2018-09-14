@@ -37,9 +37,9 @@ public:
 	*	getCar(string)
 	*
 	*	Returns the memory address of a car whose name is equal to the given
-	*	name.  Returns NULL if no fighter is found with the given name.
+	*	name.  Returns NULL if no car is found with the given name.
 	*
-	*	Return a memory address if a fighter is found; NULL otherwise.
+	*	Return a memory address if a car is found; NULL otherwise.
 	*/
 	virtual CarInterface* getCar(string name) = 0;
 
