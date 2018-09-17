@@ -22,6 +22,10 @@ bool Race::addCar(string info)
         {
            carVec.push_back(new Panda(name, speed));
         }
+        else
+        {
+            return false;
+        }
     }
     else
     {
